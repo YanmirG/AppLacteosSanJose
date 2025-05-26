@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppLacteosSanJose</string>
+    <string name="fecha_seleccionada">Fecha seleccionada: %1$s</string>
+    <string name="vida_util_resultado">Vida útil estimada: %1$d días</string>
+    <string name="btn_seleccionar_fecha">Seleccionar Fecha de Producción</string>
+    <string name="btn_estimar_vida">Estimar Vida Útil</string>
+    <string name="fecha_no_seleccionada">Por favor selecciona una fecha de producción</string>
+    <string name="error_entrada">Verifica que todos los datos sean correctos</string>
+    <string name="error_solicitud">Error al conectar con el servidor. Intenta más tarde.</string>
+</resources>
