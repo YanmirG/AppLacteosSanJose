@@ -15,4 +15,6 @@
     <string name="titulo_bienvenida">¡Bienvenidos a Asociación San José!</string>
     <string name="subtitulo_bienvenida">Calidad y frescura en productos lácteos</string>
     <string name="btn_continuar">Ingresar</string>
+    <string name="fecha_placeholder">Fecha: %1$s</string>
+    <string name="lote_placeholder">Lote: %1$s</string>
 </resources>
