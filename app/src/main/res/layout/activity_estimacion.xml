@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_margin="32dp"/>
+        android:layout_marginTop="32dp"/>
 
     <EditText
         android:id="@+id/edtTemperatura"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@id/tituloEstimacion"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_margin="24dp"/>
+        android:layout_marginTop="24dp"/>
 
     <EditText
         android:id="@+id/edtHumedad"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toBottomOf="@id/edtTemperatura"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_margin="12dp"/>
+        android:layout_marginTop="12dp"/>
 
     <EditText
         android:id="@+id/edtPh"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@id/edtHumedad"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_margin="12dp"/>
+        android:layout_marginTop="12dp"/>
 
     <Button
         android:id="@+id/btnSeleccionarFecha"
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toBottomOf="@id/edtPh"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_margin="16dp"/>
+        android:layout_marginTop="16dp"/>
 
     <TextView
         android:id="@+id/txtFechaProduccion"
@@ -83,7 +83,7 @@
         app:layout_constraintTop_toBottomOf="@id/btnSeleccionarFecha"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_margin="8dp"/>
+        android:layout_marginTop="8dp"/>
 
     <Button
         android:id="@+id/btnEstimar"
@@ -97,7 +97,7 @@
         app:layout_constraintTop_toBottomOf="@id/txtFechaProduccion"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_margin="24dp"/>
+        android:layout_marginTop="24dp"/>
 
     <TextView
         android:id="@+id/txtResultado"
@@ -110,6 +110,6 @@
         app:layout_constraintTop_toBottomOf="@id/btnEstimar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_margin="24dp"/>
+        android:layout_marginTop="24dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
