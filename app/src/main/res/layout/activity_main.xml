@@ -11,7 +11,7 @@
         android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="🧀 Productos Lácteos - Asociación San José"
+        android:text="🧀 Productos Lácteos-Asociación San José"
         android:padding="16dp"
         android:textSize="18sp"
         android:textStyle="bold"
