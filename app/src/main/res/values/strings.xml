@@ -1,4 +1,7 @@
 <resources>
+    <string name="nombre_producto">Nombre de producto</string>
+    <string name="fecha_produccion">Fecha de producción</string>
+    <string name="lote">Lote</string>
     <string name="app_name">AppLacteosSanJose</string>
     <string name="fecha_seleccionada">Fecha seleccionada: %1$s</string>
     <string name="vida_util_resultado">Vida útil estimada: %1$d días</string>
