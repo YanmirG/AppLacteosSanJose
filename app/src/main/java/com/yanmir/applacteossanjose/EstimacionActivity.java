@@ -1,5 +1,4 @@
 package com.yanmir.applacteossanjose;
-
 import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.util.Log;
