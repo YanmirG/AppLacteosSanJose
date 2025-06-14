@@ -10,4 +10,9 @@
     <string name="fecha_no_seleccionada">Por favor selecciona una fecha de producción</string>
     <string name="error_entrada">Verifica que todos los datos sean correctos</string>
     <string name="error_solicitud">Error al conectar con el servidor. Intenta más tarde.</string>
+    <string name="titulo_productos">🧀 Productos Lácteos - Asociación San José</string>
+    <string name="logo_desc">Logo de la Asociación San José</string>
+    <string name="titulo_bienvenida">¡Bienvenidos a Asociación San José!</string>
+    <string name="subtitulo_bienvenida">Calidad y frescura en productos lácteos</string>
+    <string name="btn_continuar">Ingresar</string>
 </resources>
