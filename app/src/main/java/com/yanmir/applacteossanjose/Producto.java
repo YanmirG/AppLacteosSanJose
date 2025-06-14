@@ -1,5 +1,4 @@
 package com.yanmir.applacteossanjose;
-
 public class Producto {
     private int id;
     private String tipoProducto;
