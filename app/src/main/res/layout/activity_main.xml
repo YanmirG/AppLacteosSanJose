@@ -10,7 +10,7 @@
         android:id="@+id/titulo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="🧀 Productos Lácteos - Asociación San José"
+        android:text="@string/titulo_productos"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="#1A237E"
