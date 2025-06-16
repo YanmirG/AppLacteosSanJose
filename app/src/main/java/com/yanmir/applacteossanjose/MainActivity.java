@@ -34,9 +34,10 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
 
         // Al hacer clic en un producto, abre la actividad de estimación
+        ListView listView = findViewById(R.id.listaProductos);
         listView.setOnItemClickListener((parent, view, position, id) -> {
-            Intent intent = new Intent(MainActivity.this, EstimacionActivity.class);
-            intent.putExtra("id_producto", listaProductos.get(position).getId());
+            Intent intent = new Intent(MainActivity.this, EstadoImagenActivity.class);
+            // Puedes pasar datos con putExtra si lo necesitas
             startActivity(intent);
         });
 
