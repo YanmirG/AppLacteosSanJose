@@ -10,6 +10,8 @@ import android.widget.*;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import org.json.JSONObject; // <-- Agrega este import
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
@@ -74,7 +76,17 @@ public class EstadoImagenActivity extends AppCompatActivity {
             MultipartRequest request = new MultipartRequest(
                     com.android.volley.Request.Method.POST,
                     "http://10.0.2.2:5000/analizar_imagen",
-                    response -> runOnUiThread(() -> txtResultadoImagen.setText(response)),
+                    response -> runOnUiThread(() -> {
+                        try {
+                            JSONObject json = new JSONObject(response);
+                            String estado = json.getString("estado");
+                            double confianza = json.getDouble("confianza");
+                            String texto = "Estado: " + estado + "\nConfianza: " + String.format("%.2f", confianza * 100) + "%";
+                            txtResultadoImagen.setText(texto);
+                        } catch (Exception e) {
+                            txtResultadoImagen.setText("Respuesta inesperada");
+                        }
+                    }),
                     error -> runOnUiThread(() -> txtResultadoImagen.setText("Error al analizar imagen")),
                     null, // headers si no tienes
                     byteData
