@@ -68,8 +68,7 @@ public class EstadoImagenActivity extends AppCompatActivity {
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             bitmap.compress(Bitmap.CompressFormat.JPEG, 90, baos);
             byte[] imagenBytes = baos.toByteArray();
-
-            // Prepara el mapa de archivos
+            
             Map<String, MultipartRequest.DataPart> byteData = new HashMap<>();
             byteData.put("imagen", new MultipartRequest.DataPart("foto.jpg", imagenBytes, "image/jpeg"));
 
