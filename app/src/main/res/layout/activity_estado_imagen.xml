@@ -61,13 +61,13 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="20dp"
-                android:backgroundTint="#F4F9FF">
+                android:backgroundTint="#2D4261">
 
                 <ImageView
                     android:id="@+id/imgSeleccionada"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/icono_analisis"
+                    android:src="@drawable/logo_analisis"
                     android:scaleType="centerCrop"
                     android:background="@drawable/circle_border" />
             </androidx.cardview.widget.CardView>
