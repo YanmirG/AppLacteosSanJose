@@ -67,7 +67,7 @@
                     android:id="@+id/imgSeleccionada"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/logo_analisis"
+                    android:src="@drawable/ic_launcher_foreground"
                     android:scaleType="centerCrop"
                     android:background="@drawable/circle_border" />
             </androidx.cardview.widget.CardView>
