@@ -105,7 +105,7 @@
         android:layout_height="wrap_content"
         android:text=""
         android:textSize="16sp"
-        android:textColor="#000000"
+        android:textColor="#581E1E"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/btnEstimar"
         app:layout_constraintStart_toStartOf="parent"
