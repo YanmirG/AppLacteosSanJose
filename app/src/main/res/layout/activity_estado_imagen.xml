@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="32dp"
-        app:cardBackgroundColor="#CC7A98BB">
+        app:cardBackgroundColor="#CCC3E3F4">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -67,7 +67,7 @@
                     android:id="@+id/imgSeleccionada"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:src="@drawable/icono_analisis"
                     android:scaleType="centerCrop"
                     android:background="@drawable/circle_border" />
             </androidx.cardview.widget.CardView>
