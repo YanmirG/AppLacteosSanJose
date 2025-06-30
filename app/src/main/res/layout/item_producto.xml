@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:text="@string/lote"
             android:textSize="14sp"
-            android:textColor="#555555"
+            android:textColor="#0E0D0D"
             android:layout_marginTop="2dp" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
