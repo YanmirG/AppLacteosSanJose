@@ -4,5 +4,5 @@
         android:type="linear"
         android:angle="135"
         android:startColor="#E3F2FD"
-        android:endColor="#F4F9FF"/>
+    android:gradientRadius="500"/>
 </selector>
